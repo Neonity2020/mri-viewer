@@ -382,11 +382,26 @@ body {
 .slice-info {
   position: absolute;
   bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  left: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-size: 0.9rem;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #888;
+  padding-top: 0.5rem;
+}
+
+.attribution a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
 }

@@ -269,6 +269,9 @@ function App() {
           )}
         </div>
       </div>
+      <div className="attribution">
+        Case courtesy of Mohd Radhwan Bin Abidin, <a href="https://radiopaedia.org/" target="_blank" rel="noopener noreferrer">Radiopaedia.org</a>. From the case <a href="https://radiopaedia.org/cases/153576" target="_blank" rel="noopener noreferrer">rID: 153576</a>
+      </div>
     </div>
   );
 }
