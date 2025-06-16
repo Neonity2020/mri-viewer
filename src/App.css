@@ -374,25 +374,26 @@ body {
 }
 
 .reset-button:hover {
-  background-color: #007bff;
-  border-color: #0056b3;
+  background-color: #555;
+  transform: scale(1.1) rotate(45deg);
 }
 
 /* 切片信息显示 */
 .slice-info {
   position: absolute;
+  left: 50%;
   bottom: 1rem;
-  left: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
+  transform: translateX(-50%);
   font-size: 0.9rem;
+  color: #ccc;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
 }
 
 .attribution {
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: #888;
   padding-top: 0.5rem;
 }
@@ -404,4 +405,21 @@ body {
 
 .attribution a:hover {
   text-decoration: underline;
+}
+.case-description {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 0.75rem;
+  color: #ffffff;
+  padding-top: 0.5rem;
+}
+.details {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 1.0rem;
+  color: #ffffff;
+  padding-top: 0.5rem;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 1rem;
 }
